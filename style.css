@@ -8,6 +8,7 @@ body {
 	margin-top: 120px;
 	margin-bottom: 40px;
 	max-width: 600px;
+	
 }
 
 .grid {
@@ -15,10 +16,18 @@ body {
 	flex-wrap: wrap;
 	height: 100%;
 	width: 100%;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 40px;
+	margin-top: 40px;
 }
 
 img {
-	padding: 20px 20px;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+
 }
 
 h3 {
