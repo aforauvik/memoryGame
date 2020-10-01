@@ -2,52 +2,52 @@ document.addEventListener('DOMContentLoaded', () => {
 	//card options
 	const cardArray = [
 		{
-			name: 'fries',
-			img: 'images/fries.svg'
+			name: 'broccoli',
+			img: 'images/broccoli.svg'
 		},
 		{
-			name: 'cheeseburger',
-			img: 'images/burger.svg'
+			name: 'lemon',
+			img: 'images/lemon.svg'
 		},
 		{
-			name: 'ice-cream',
-			img: 'images/icecream.svg'
+			name: 'orange',
+			img: 'images/orange.svg'
 		},
 		{
-			name: 'pizza',
-			img: 'images/pizza.svg'
+			name: 'banana',
+			img: 'images/banana.svg'
 		},
 		{
-			name: 'milkshake',
-			img: 'images/soda.svg'
+			name: 'carrot',
+			img: 'images/carrot.svg'
 		},
 		{
-			name: 'hotdog',
-			img: 'images/hotdog.svg'
+			name: 'blueberry',
+			img: 'images/blueberry.svg'
 		},
 		{
-			name: 'fries',
-			img: 'images/fries.svg'
+			name: 'broccoli',
+			img: 'images/broccoli.svg'
 		},
 		{
-			name: 'cheeseburger',
-			img: 'images/burger.svg'
+			name: 'lemon',
+			img: 'images/lemon.svg'
 		},
 		{
-			name: 'ice-cream',
-			img: 'images/icecream.svg'
+			name: 'orange',
+			img: 'images/orange.svg'
 		},
 		{
-			name: 'pizza',
-			img: 'images/pizza.svg'
+			name: 'banana',
+			img: 'images/banana.svg'
 		},
 		{
-			name: 'milkshake',
-			img: 'images/soda.svg'
+			name: 'carrot',
+			img: 'images/carrot.svg'
 		},
 		{
-			name: 'hotdog',
-			img: 'images/hotdog.svg'
+			name: 'blueberry',
+			img: 'images/blueberry.svg'
 		}
 	];
 
