@@ -55,6 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	const grid = document.querySelector('.grid');
 	const resultDisplay = document.querySelector('#result');
+	const refreshButton = document.querySelector('#playAgain');
 	var cardsChosen = [];
 	var cardsChosenId = [];
 	const cardsWon = [];
@@ -96,7 +97,8 @@ document.addEventListener('DOMContentLoaded', () => {
 		cardsChosenId = [];
 		// resultDisplay.textContent = cardsWon.length;
 		if (cardsWon.length === cardArray.length / 2) {
-			resultDisplay.textContent = 'Congratulations! You found them all!. Refresh to play again!';
+			resultDisplay.textContent = 'Congratulations! You found them all!';
+		
 		}
 	}
 
