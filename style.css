@@ -11,6 +11,30 @@ body {
 	
 }
 
+.title {
+	margin-bottom: 24px;
+}
+
+h1 {
+	font-size: 32px;
+	text-align: center;
+	/* margin-bottom: 20px; */
+	color: #E7DFCF;
+	padding-left: 32px;
+	padding-right: 32px;
+}
+
+p {
+	font-size: 16px;
+	font-weight: 600;
+	text-align: center;
+	/* margin-bottom: 20px; */
+	color: #E7DFCF;
+	padding-left: 32px;
+	padding-right: 32px;
+	
+}
+
 .grid {
 	display: flex;
 	flex-wrap: wrap;
