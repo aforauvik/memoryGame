@@ -73,6 +73,7 @@ h2 {
 	color: #47B39C;
 	padding-left: 32px;
 	padding-right: 32px;
+	margin-top: 40px;
 }
 
 .container {
@@ -84,7 +85,9 @@ h2 {
 }
 
 
-@media only screen and (max-width: 375px) {
+
+
+@media only screen and (max-width: 420px) {
 
 	body {
 		margin-top: 16px;
@@ -110,7 +113,7 @@ h2 {
 		width: 100%;
 		align-items: center;
 		justify-content: center;
-		margin-bottom: 16px;
+		margin-bottom: 32px;
 		margin-top: 16px;
 	}
 
@@ -148,7 +151,7 @@ h2 {
 
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 375px) {
 
 	body {
 		margin-top: 16px;
@@ -174,7 +177,7 @@ h2 {
 		width: 100%;
 		align-items: center;
 		justify-content: center;
-		margin-bottom: 16px;
+		margin-bottom: 32px;
 		margin-top: 16px;
 	}
 
