@@ -3,51 +3,51 @@ document.addEventListener('DOMContentLoaded', () => {
 	const cardArray = [
 		{
 			name: 'fries',
-			img: 'images/fries.png'
+			img: 'images/fries.svg'
 		},
 		{
 			name: 'cheeseburger',
-			img: 'images/burger.png'
+			img: 'images/burger.svg'
 		},
 		{
 			name: 'ice-cream',
-			img: 'images/icecream.png'
+			img: 'images/icecream.svg'
 		},
 		{
 			name: 'pizza',
-			img: 'images/pizza.png'
+			img: 'images/pizza.svg'
 		},
 		{
 			name: 'milkshake',
-			img: 'images/soda.png'
+			img: 'images/soda.svg'
 		},
 		{
 			name: 'hotdog',
-			img: 'images/hotdog.png'
+			img: 'images/hotdog.svg'
 		},
 		{
 			name: 'fries',
-			img: 'images/fries.png'
+			img: 'images/fries.svg'
 		},
 		{
 			name: 'cheeseburger',
-			img: 'images/burger.png'
+			img: 'images/burger.svg'
 		},
 		{
 			name: 'ice-cream',
-			img: 'images/icecream.png'
+			img: 'images/icecream.svg'
 		},
 		{
 			name: 'pizza',
-			img: 'images/pizza.png'
+			img: 'images/pizza.svg'
 		},
 		{
 			name: 'milkshake',
-			img: 'images/soda.png'
+			img: 'images/soda.svg'
 		},
 		{
 			name: 'hotdog',
-			img: 'images/hotdog.png'
+			img: 'images/hotdog.svg'
 		}
 	];
 
@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	function createBoard() {
 		for (let i = 0; i < cardArray.length; i++) {
 			var card = document.createElement('img');
-			card.setAttribute('src', 'images/blank.png');
+			card.setAttribute('src', 'images/blank.svg');
 			card.setAttribute('data-id', i);
 			card.addEventListener('click', flipCard);
 			grid.appendChild(card);
@@ -77,19 +77,19 @@ document.addEventListener('DOMContentLoaded', () => {
 		const optionTwoId = cardsChosenId[1];
 
 		if (optionOneId == optionTwoId) {
-			cards[optionOneId].setAttribute('src', 'images/blank.png');
-			cards[optionTwoId].setAttribute('src', 'images/blank.png');
+			cards[optionOneId].setAttribute('src', 'images/blank.svg');
+			cards[optionTwoId].setAttribute('src', 'images/blank.svg');
 			alert('You have clicked the same image!');
 		} else if (cardsChosen[0] === cardsChosen[1]) {
 			alert('You found a match');
-			cards[optionOneId].setAttribute('src', 'images/white.png');
-			cards[optionTwoId].setAttribute('src', 'images/white.png');
+			cards[optionOneId].setAttribute('src', 'images/white.svg');
+			cards[optionTwoId].setAttribute('src', 'images/white.svg');
 			cards[optionOneId].removeEventListener('click', flipCard);
 			cards[optionTwoId].removeEventListener('click', flipCard);
 			cardsWon.push(cardsChosen);
 		} else {
-			cards[optionOneId].setAttribute('src', 'images/blank.png');
-			cards[optionTwoId].setAttribute('src', 'images/blank.png');
+			cards[optionOneId].setAttribute('src', 'images/blank.svg');
+			cards[optionTwoId].setAttribute('src', 'images/blank.svg');
 			alert('Sorry, try again');
 		}
 		cardsChosen = [];
