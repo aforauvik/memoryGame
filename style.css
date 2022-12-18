@@ -10,10 +10,6 @@ body {
 	max-width: 600px;
 }
 
-a {
-	text-decoration: none;
-}
-
 .title {
 	margin-bottom: 24px;
 }
@@ -113,6 +109,7 @@ a {
 	color: #de6552;
 	font-size: 16px;
 	text-align: center;
+	text-decoration: none;
 }
 
 @media only screen and (max-width: 420px) {

@@ -56,8 +56,8 @@ document.addEventListener("DOMContentLoaded", () => {
 	const grid = document.querySelector(".grid");
 	const resultDisplay = document.querySelector("#result");
 	const refreshButton = document.querySelector("#playAgain");
-	var cardsChosen = [];
-	var cardsChosenId = [];
+	let cardsChosen = [];
+	let cardsChosenId = [];
 	const cardsWon = [];
 
 	//create your board
@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	//check for matches
 	function checkForMatch() {
 		let playAgain = document.querySelector(".play-again");
-		var cards = document.querySelectorAll("img");
+		let cards = document.querySelectorAll("img");
 		const optionOneId = cardsChosenId[0];
 		const optionTwoId = cardsChosenId[1];
 
@@ -98,14 +98,14 @@ document.addEventListener("DOMContentLoaded", () => {
 		cardsChosenId = [];
 		// resultDisplay.textContent = cardsWon.length;
 		if (cardsWon.length === cardArray.length / 2) {
-			resultDisplay.textContent = "Congratulations! You found them all!";
+			resultDisplay.textContent = "Congratulations! You've found them all!";
 			playAgain.style.display = "flex";
 		}
 	}
 
 	//flip your card
 	function flipCard() {
-		var cardId = this.getAttribute("data-id");
+		let cardId = this.getAttribute("data-id");
 		cardsChosen.push(cardArray[cardId].name);
 		cardsChosenId.push(cardId);
 		this.setAttribute("src", cardArray[cardId].img);
